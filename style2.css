@@ -1,0 +1,150 @@
+body,
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+
+
+}
+
+#mainTakePg {
+    position: relative;
+}
+
+#mainTakePg img {
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+#mainTakePg a.take01 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    top: 41%;
+    left: 41%;
+    font-size: 70px;
+    font-weight: 800;
+    text-decoration: wavy;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: end;
+
+
+}
+
+#mainTakePg p.take01p {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Bradley Hand, cursive;
+}
+
+#mainTakePg a.take02 {
+    color: rgb(10, 119, 207);
+    position: absolute;
+    top: 77%;
+    left: 55%;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+
+
+}
+
+#mainTakePg a.take03 {
+    color: rgb(10, 119, 207);
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+
+
+}
+
+#mainTakePg01 {
+    position: relative;
+}
+
+#mainTakePg01 img {
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+#mainTakePg01 a.take01 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-size: 70px;
+    font-weight: 800;
+    text-decoration: wavy;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: end;
+
+
+}
+
+#mainTakePg01 p.take01p {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Bradley Hand, cursive;
+}
+
+#mainTakePg01 a.take02 {
+    color: rgb(10, 119, 207);
+    position: absolute;
+    top: 77%;
+    left: 65%;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+
+
+}
+
+#mainTakePg01 a.take03 {
+    color: rgb(10, 119, 207);
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+
+
+}
+
+
+#mainTakePg01 a.take00 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    font-size: 70px;
+    font-weight: 800;
+    text-decoration: wavy;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: end;
+
+
+}

@@ -1,0 +1,52 @@
+.one,
+.two {
+    font-family: 'Dokdo', 'cursive';
+}
+
+.one {
+    margin-top: 0%;
+    margin-left: 40%;
+    font-size: 80px;
+    font-weight: 900;
+
+}
+
+.two {
+    margin-top: 0%;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 36%;
+}
+
+.container {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 40px solid rgb(252, 252, 252);
+    background-color: blanchedalmond;
+    border: 10px solid rgb(252, 252, 252);
+    border-radius: 40px;
+
+}
+
+ .three {
+     font-weight: 700;
+    font-size: 20px;
+
+}
+
+.box01 p, a {
+    margin-left: 18%;
+}
+
+.box01 a{
+    text-decoration: wavy;
+}
+
+
+div.box01 img {
+    margin-left: 10%;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}

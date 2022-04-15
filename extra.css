@@ -1,0 +1,135 @@
+#feedworld2 {
+    position: relative;
+}
+
+#feedworld2 img {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#feedworld2 a.one1 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    bottom: 16%;
+    left: 8%;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+
+
+}
+
+
+#clotheWorld2 {
+    position: relative;
+}
+
+#clotheWorld2 img {
+    margin-top: 0%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#clotheWorld2 a.one1 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    bottom: 6%;
+    left: 52%;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+
+
+}
+
+#readWorld2 {
+    position: relative;
+}
+
+#readWorld2 img {
+    margin-top: 0%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#readWorld2 a.one1 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    bottom: 16%;
+    left: 10%;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+
+
+}
+
+#playWorld2 {
+    position: relative;
+}
+
+#playWorld2 img {
+    margin-top: 0%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#playWorld2 a.one1 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    bottom: 19%;
+    left: 62%;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+
+
+}
+
+#healWorld2 {
+    position: relative;
+}
+
+#healWorld2 img {
+    margin-top: 8%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#healWorld2 a.one1 {
+    color: rgb(17, 32, 99);
+    position: absolute;
+    bottom: 11%;
+    left: 10%;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+
+
+}
+

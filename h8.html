@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+      
+<body>
+    
+
+    <section id ="eight">
+        <div>
+            <h1>Got</h1>
+
+     
+    <div id="mainDonation2">
+        <h2>Video</h2>
+
+        <input type='file' id='videoUpload' />
+        
+        <video width="350" height="250" controls>
+            Your browser does not support the video tag.
+        </video>
+        <div id="descriptionBox2">
+            <form class="input-descriptionBox2">
+                <input type="text" class="input-field" placeholder="Type of entity" required><br><br>
+                <input type="text" class="input-field" placeholder="Number of entity " required><br><br>
+                <input type="text" class="input-field" placeholder="Description Please!" required><br><br><br><br>
+                <button type="submit" class="submit-btn">Go</button>
+            </form>
+        </div>
+        </div>
+        <p class="mainDonation3">Upload a video<br> or <br> an image</p>
+    <div id="mainDonation1">
+        <h2>Image</h2>
+
+        <span class="image-preview__default-text">Image Preview</span>
+        <div class="preview">
+            <img id="file-ip-1-preview">
+        </div>
+        <label for="file-ip-1"></label>
+        <input type="file" id="file-ip-1" accept="image/jpg, image/jpeg" onchange="showPreview(event);">
+        <div id="descriptionBox1">
+            <form class="input-descriptionBox1">
+                <input type="text" class="input-field" placeholder="Type of entity" required><br><br>
+                <input type="text" class="input-field" placeholder="Number of entity " required><br><br>
+                <input type="text" class="input-field" placeholder="Description Please!" required><br><br><br><br>
+                <button type="submit" class="submit-btn">Go</button>
+            </form>
+        </div>
+        
+    </div>
+
+    
+
+
+    </div>
+    <div id="flagship">
+        <p class = "flagshipDonation">
+           <i> Join our flagship donation<br> campaigns (click below)</i><br><br>
+            <a class="one1" href="h2.html">#FeedWorld</a><br>
+            <a class="one1" href="h7.html">#HealWorld</a><br>
+            <a class="one1" href="h4.html">#ReadWorld</a><br>
+            <a class="one1" href="h5.html">#PlayWorld</a><br>
+            <a class="one1" href="h3.html">#ClotheWorld</a>
+            <p>Thank You!</p>
+        </p>
+
+    </div>
+    
+    </section>
+        
+        <script>
+            document.getElementById("videoUpload")
+                .onchange = function (event) {
+                    let file = event.target.files[0];
+                    let blobURL = URL.createObjectURL(file);
+                    document.querySelector("video").src = blobURL;
+                }
+        </script>
+
+        <script type="text/javascript">
+            function showPreview(event) {
+                if (event.target.files.length > 0) {
+                    var src = URL.createObjectURL(event.target.files[0]);
+                    var preview = document.getElementById("file-ip-1-preview");
+                    preview.src = src;
+                    preview.width = "345";
+                    preview.height = "250";
+                    preview.style.display = "block";
+                }
+            }
+        </script>
+</body>
+</html>    

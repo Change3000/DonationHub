@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+<section>
+    <div id="clotheworld3">
+        <div class="slideshow06">
+        </div>
+       
+
+    
+            <div id="clothebox1">
+            <h2>Select the type-</h2>
+            <label class="clothecontainer">Summer wear
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="clothecontainer">Winter wear
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="clothecontainer">Spring wear
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="clothecontainer">Foot wear
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            </div>
+
+          <div id="clothebox2">
+            <h2>Select the size-</h2>
+            <label class="clothecontainer2">Small
+                <input type="radio" checked="checked" name="radio2">
+                <span class="checkmark2"></span>
+            </label>
+            <label class="clothecontainer2">Medium
+                <input type="radio" name="radio2">
+                <span class="checkmark2"></span>
+            </label>
+            <label class="clothecontainer2">Large
+                <input type="radio" name="radio2">
+                <span class="checkmark2"></span>
+            </label>
+            <label class="clothecontainer2">XL
+                <input type="radio" name="radio2">
+                <span class="checkmark2"></span>
+            </label>
+            <label class="clothecontainer2">XXL
+                <input type="radio" name="radio2">
+                <span class="checkmark2"></span>
+            </label><br><br>
+            <label class="clothecontainer2">Not applicable
+                <input type="radio" name="radio2">
+                <span class="checkmark2"></span>
+            </label>
+         </div>
+        
+
+        <div id="clothebox3">
+            <h2>  Select the intended consumer-</h2>
+            <label class="clothecontainer3">Young Male 
+                <input type="radio" checked="checked" name="radio3">
+                <span class="checkmark3"></span>
+            </label>
+            <label class="clothecontainer3">Young female
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label>
+            <label class="clothecontainer3">middle aged male
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label><br><br>
+            <label class="clothecontainer3">middle aged female
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label>
+            <label class="clothecontainer3">Old aged Male
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label>
+            <label class="clothecontainer3">Old aged female
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label><br><br>
+            <label class="clothecontainer3">Not applicable
+                <input type="radio" name="radio3">
+                <span class="checkmark3"></span>
+            </label>
+        </div>
+
+        <div id="clothebox6">
+            <h2>Time and date please</h2>
+            <form class="input-healworld">
+                <input type="time" class="input-field" placeholder="Time" required>
+                <input type="date" class="input-field" placeholder="date" required>
+            </form>
+        </div>
+        
+        <div id="clothebox7">
+            <h2>Location</h2>
+            <form class="input-healworld">
+                <input type="text" class="input-field" placeholder="House no." required>
+                <input type="text" class="input-field" placeholder="Street name" required>
+                <input type="text" class="input-field" placeholder="Locality" required>
+                <input type="text" class="input-field" placeholder="District(PIN), state" required><br><br>
+                <button type="submit" class="submit-btn">Go</button>
+            </form>
+        </div>
+
+        <div id="clothebox5">
+            <h2>Describe the outfit</h2>
+            <textarea name="Describe" cols="40" row="10">Description please!</textarea>
+        
+        
+        </div>
+
+        <div id="clothebox4">
+            <h2>Picture of outfit</h2>
+            <span class="image-preview__default-text">Image Preview</span>
+            <div class="preview">
+                <img id="file-ip-1-preview">
+            </div>
+            <label for="file-ip-1">Upload image</label>
+            <input type="file" id="file-ip-1" accept="image/jpg, image/jpeg" onchange="showPreview(event);">
+            
+        </div>
+        
+    </section>
+        
+        
+        
+        <script type="text/javascript">
+            function showPreview(event) {
+                    if (event.target.files.length > 0) {
+                        var src = URL.createObjectURL(event.target.files[0]);
+                        var preview = document.getElementById("file-ip-1-preview");
+                        preview.src = src;
+                        preview.width = "345";
+                        preview.height= "250";
+                        preview.style.display = "block";
+                    }
+                }
+        </script>
+        
+
+    
+</body>
+</html>

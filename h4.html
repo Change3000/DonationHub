@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+    
+
+    <section>
+    <div id="readworld3">
+        <div class="slideshow5">
+        </div>
+        <div id="readbox1">
+        <form  class="input-readworld">
+            <input type="text" class="input-field" placeholder="Title" required>
+            <input type="text" class="input-field" placeholder="Author" required>
+            <input type="text" class="input-field" placeholder="Publisher" required>
+            <input type="number" class="input-field" placeholder="Publication year (yyyy)" required><br><br><br><br><br>
+            <button type="submit" class="submit-btn">Go</button>
+        </form>
+        </div>
+
+        <div id="readbox6">
+            <h2>Time and date please</h2>
+            <form class="input-healworld">
+                <input type="time" class="input-field" placeholder="Time" required>
+                <input type="date" class="input-field" placeholder="date" required>
+            </form>
+        </div>
+        
+        <div id="readbox5">
+            <h2>Location</h2>
+            <form class="input-healworld">
+                <input type="text" class="input-field" placeholder="House no." required>
+                <input type="text" class="input-field" placeholder="Street name" required>
+                <input type="text" class="input-field" placeholder="Locality" required>
+                <input type="text" class="input-field" placeholder="District(PIN), state" required><br><br>
+                <button type="submit" class="submit-btn">Go</button>
+            </form>
+        </div>
+        
+
+        <div id="readbox3">
+            <h2>Describe the book</h2>
+            <textarea name="Describe" cols="40" row="10">Description please!</textarea>
+        
+        
+        </div>
+        
+        <div id="readbox2">
+            <h2>Picture of book</h2>
+            <span class="image-preview__default-text">Image Preview</span>
+            <div class="preview">
+                <img id="file-ip-1-preview">
+            </div>
+            <label for="file-ip-1">Upload image</label>
+            <input type="file"  id="file-ip-1" accept="image/jpg, image/jpeg" onchange="showPreview(event);">
+            
+        </div>
+        
+    </section>
+    
+    
+    
+    <script type="text/javascript">
+        function showPreview(event) {
+                if (event.target.files.length > 0) {
+                    var src = URL.createObjectURL(event.target.files[0]);
+                    var preview = document.getElementById("file-ip-1-preview");
+                    preview.src = src;
+                    preview.width= "345";
+                    preview.height = "250";
+                    preview.style.display = "block";
+                }
+            }
+    </script>
+
+
+    
+
+</body>
+</html>

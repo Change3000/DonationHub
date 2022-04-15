@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+  margin-top: 10%;  
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 6.5em;
+  color: white;
+}
+
+.btn-group a.btn1{
+  margin-top: 10%;
+  margin-left: 44%;  
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 3.5em;
+  text-decoration: wavy;
+  color: white;
+
+}
+
+.btn-group a.btn2{
+  margin-top: 10%;
+  margin-left: 30%;  
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  text-decoration: wavy;
+  color: white;
+
+}

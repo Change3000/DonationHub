@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+        function showPreview(event) {
+            if (event.target.files.length > 0) {
+                var src = URL.createObjectURL(event.target.files[0]);
+                var preview = document.getElementById("file-ip-1-preview");
+                preview.src = src;
+                preview.width = "345";
+                preview.height = "250";
+                preview.style.display = "block";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <section class="healworld3">
+        
+            <div class="slideshow4">
+            </div>
+            <div><form id="healbox1" class="input-healworld">
+                <input type="text" class="input-field" placeholder="Blood Group" required>
+                <input type="text" class="input-field" placeholder="Total Units Needed" required>
+                <input type="text" class="input-field" placeholder="Patient age " required>
+                <input type="text" class="input-field" placeholder="Any other important info"
+                    required><br><br><br><br><br>
+                <button type="submit" class="submit-btn">Go</button>
+            </form></div>
+
+
+            <div id="healbox4">
+                <h2>Time and date please</h2>
+                <form class="input-healworld">
+                    <input type="time" class="input-field" placeholder="Time" required>
+                    <input type="date" class="input-field" placeholder="date" required>
+                </form>
+            </div>
+
+            <div id="healbox5">
+                <h2>Location</h2>
+                <form class="input-healworld">
+                    <input type="text" class="input-field" placeholder="House no." required>
+                    <input type="text" class="input-field" placeholder="Street name" required>
+                    <input type="text" class="input-field" placeholder="Locality" required>
+                    <input type="text" class="input-field" placeholder="District(PIN), state" required><br><br>
+                    <button type="submit" class="submit-btn">Go</button>
+                </form>
+            </div>
+
+
+            
+
+            
+
+    </section>
+
+
+
+    
+
+</body>
+
+</html>
